@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cursos.com.petagramendpoint">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Petagram">
+        <activity android:name="cursos.com.petagramendpoint.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cursos.com.petagramendpoint.activity.FavoritoActivity"
+            android:label="@string/favoritos"
+            android:parentActivityName="cursos.com.petagramendpoint.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cursos.com.petagramendpoint.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="cursos.com.petagramendpoint.activity.ContactActivity"
+            android:label="@string/menu_contact"
+            android:parentActivityName="cursos.com.petagramendpoint.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cursos.com.petagramendpoint.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="cursos.com.petagramendpoint.activity.AboutActivity"
+            android:label="@string/menu_about"
+            android:parentActivityName="cursos.com.petagramendpoint.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cursos.com.petagramendpoint.activity.MainActivity" />
+        </activity>
+        <activity android:name="cursos.com.petagramendpoint.activity.ConfigurarCuentaActivity"></activity>
+
+        <service android:name=".notificaciones.NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".notificaciones.NotificacionIDTokenService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".notificaciones.VerPerfil">
+            <intent-filter>
+                <action android:name="VER_PERFIL" />
+                <action android:name="DAR_FOLLOW" />
+                <action android:name="VER_USUARIO" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

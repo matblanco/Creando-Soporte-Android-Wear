@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="102dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/margin"
+    >
+
+    <ImageView
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:id="@+id/imagenFoto"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/perro_tab" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textoCantidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_gravity="center_vertical"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/like_bone"
+            android:layout_marginRight="@dimen/margin"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombre_mascota">nombre mascota</string>
+    <string name="numero_rating">5</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombreDesarrollador">-</string>
+    <string name="profesion">Profesión</string>
+    <string name="nombreProfesion">-</string>
+    <string name="pais">País</string>
+    <string name="nombrePais">- </string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="mensaje">mensaje</string>
+    <string name="enviar">Enviar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perro">PERRO</string>
+    <string name="hint_nombre_busqueda">Escribe tu nombre</string>
+    <string name="btn_guardar_cuenta">Guardar Cuenta</string>
+    <string name="menu_configurar_cuenta">Configurar Cuenta</string>
+    <string name="menu_recibir_notificacion">Recibir Notificación</string>
+
+    <string name="texto_ver_mi_perfil">Ver mi Perfil</string>
+    <string name="texto_dar_follow">Dar Follow</string>
+    <string name="texto_ver_usuario">Ver Usuario</string>
+
+</resources>

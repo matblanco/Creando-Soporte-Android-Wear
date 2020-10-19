@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "849147446544",
+    "firebase_url": "https://petagramendpoint.firebaseio.com",
+    "project_id": "petagramendpoint",
+    "storage_bucket": "petagramendpoint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849147446544:android:2e04c205bb7ce206",
+        "android_client_info": {
+          "package_name": "com.cursos.petagramendpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849147446544-ref8a3g5phcv7qhsrj3imgmmjdobuun8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursos.petagramendpoint",
+            "certificate_hash": "1688626e1b11facf48c07089870fbe8a016c0d7b"
+          }
+        },
+        {
+          "client_id": "849147446544-jcu713fdd5fhr6qj8jt7e17f31tongpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnvLi-TWRqanHETguQQWamCaEi9uohR9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849147446544-jcu713fdd5fhr6qj8jt7e17f31tongpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
